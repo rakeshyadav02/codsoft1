@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins',sans-serif;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+    
+}
+/* body{
+    padding-bottom: 1000px;
+
+} */
+.header{ 
+    position: fixed;
+    background-color: lightpink;
+    color: white;
+    height: 10vh;
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.header .head-left h3{
+    font-weight: bold;
+}
+
+.header .head-right a{
+    background-color: blue;
+    color: white;
+    padding: 4px 8px;
+    border: 2px solid black;
+}
+
+.header .head-right a:hover{
+    color: black;
+    background-color: white;
+}
+
+.home{
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10vh;
+    flex-wrap: wrap;
+    /* margin: 0 40px; */
+    border-bottom: 2px solid black;
+}
+.home .img {
+    flex:1 1 45rem;
+    align-items: center;
+}
+.home .img image{
+    width: 100vh;
+}
+
+.home .content{
+    
+    flex: 1 1 45rem;
+    text-align: center;
+    font-size: 30px;
+}
+.home .content h3{
+    text-align: center;
+    font-size: 30px;
+    background-image: -moz-element(New );
+}
+.home .content p{
+    text-align: center;
+    font-size: 16px;
+}
+.feature{
+    
+}
+section{
+    padding-top: 10vh;
+    height: 100vh;
+    
+    border-bottom: 2px solid black;
+}
+section h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.footing{
+    height: 30vh;
+    background-color: black;
+    color: white;
+}
+.logo{
+    color: black;
+}
+.feature .box_container .box{
+    
+    background: blueviolet; text-align: center;
+    background: #fff;
+    border-radius: .5rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+}
+.cources .box_container .box{
+    
+    background: blueviolet; text-align: center;
+    background: #fff;
+    border-radius: .5rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+}
+.support .box_container .box{
+    
+    background: blueviolet; text-align: center;
+    background: #fff;
+    border-radius: .5rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.p{
+  text-align: center;
+  line-height: 1.5;   
+}
+.share{
+    display: flex;
+}
+.contact .box_container  .share{
+    padding-right: 2rem;
+}
+
